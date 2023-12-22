@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body> 
+    <div class="heading-img">Weather Forecast Dashboard</div>
+    <main>
+        <div class="left">
+            <div class="user-input">
+                <div class="searching">
+                   <fieldset>
+                    <legend>Searching</legend>
+                        <div class="search-by-city">
+                            <input type="text" id="cityName" placeholder="Enter City Name:">
+                            <button id="searchBtn"> 🔍</i> </button> 
+                        </div>
+                        <div class="border" style="color: aliceblue;"> <strong>OR</strong></div> 
+                        <button id="search-by-Location">Search By Location</button>
+                        </div>
+                   </fieldset>
+            </div>    
+        </div>
+        
+        <div class="right">
+            <h2 class="loading"></h2>
+            <div id="info">
+                <div class="heading">
+                    <div class="address">
+                        <h2 id="cityname"><span id="cityinfo"><i>City-Name</i> </span><span id="currentdate">( Date ) </span></h2>
+                        <p id="cntryInfo"></p>
+                    </div>
+                    <div class="img"> </div>
+                </div>
+    
+                
+                <div class="weatherInfo">
+                        <div class="first">  </div>
+                        
+                        <div class="second"></div>
+                        
+                        <div class="third"> </div>
+                    </div>
+                </div>
+
+                <div class="card-heading">Weather Forecast Of Next 3Days:</div>
+                <div class="card">
+
+                    <div class="forecast">
+                        <p class="forecast-heading"><span id="date1"><i>( Day-1 )</i></span> <span id="forecast-img1"></span> </p>
+                        <div id="forecast-info1"></div> 
+                    </div>
+
+                    <div class="forecast">
+                        <p class="forecast-heading"><span id="date2"><i>( Day-2 )</i></span> <span id="forecast-img2"></span> </p>
+                        <div id="forecast-info2"> </div> 
+                    </div>
+
+                    <div class="forecast">
+                        <p class="forecast-heading"><span id="date3"><i>( Day-3 )</i></span> <span id="forecast-img3"></span> </p>
+                        <div id="forecast-info3"> </div> 
+                    </div>
+
+                </div>
+        </div>
+       
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

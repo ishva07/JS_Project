@@ -1,4 +1,4 @@
-# JS_Project
+# Weather_JS_Project
 Contains JavaScript Project
 
 - This Project Provides Weather Inforamation Base
